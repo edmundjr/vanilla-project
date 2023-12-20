@@ -1,0 +1,71 @@
+/* Basic reset for styling */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the input field for filtering */
+  input[type='text'] {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Add some hover effects for interactivity */
+  th:hover {
+    cursor: pointer;
+    background-color: #e2e2e2;
+  }
+  
+  /* Button styles if you need them */
+  button {
+    padding: 8px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* When input fields are in focus */
+  input[type='text']:focus {
+    outline: none;
+    border-color: #4d90fe;
+    box-shadow: 0 0 8px rgba(77, 144, 254, 0.5);
+  }
+  
+  /* Styling for editable cells */
+  td input {
+    border: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+  }
+  
+  td input:focus {
+    outline: none;
+  }
+  
